@@ -14,6 +14,9 @@ int main()
     TestClass test;
     test.test();
 #endif
+#ifdef TEST_CONCEPTS
+    runConceptTests();
+#endif
 
     return 0;
 }
